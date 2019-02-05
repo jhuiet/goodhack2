@@ -17,11 +17,11 @@ import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.context.annotation.Bean;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import com.tcs.hack.Exception.NoSuchResourceFoundException;
-import com.tcs.hack.vendor.Vendor;
-import com.tcs.hack.vendor.VendorRepository;
-import com.tcs.hack.vendor.VendorService;
-import com.tcs.hack.vendor.VendorServiceImpl;
+import com.hackerrank.sample.exception.NoSuchResourceFoundException;
+import com.hackerrank.sample.vendor.Vendor;
+import com.hackerrank.sample.vendor.VendorRepository;
+import com.hackerrank.sample.vendor.VendorService;
+import com.hackerrank.sample.vendor.VendorServiceImpl;
 
 @RunWith(SpringRunner.class)
 public class VendorServiceTest {

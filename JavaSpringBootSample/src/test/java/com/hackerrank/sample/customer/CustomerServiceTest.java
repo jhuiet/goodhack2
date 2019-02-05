@@ -17,11 +17,11 @@ import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.context.annotation.Bean;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import com.tcs.hack.Exception.NoSuchResourceFoundException;
-import com.tcs.hack.customer.Customer;
-import com.tcs.hack.customer.CustomerRepository;
-import com.tcs.hack.customer.CustomerService;
-import com.tcs.hack.customer.CustomerServiceImpl;
+import com.hackerrank.sample.exception.NoSuchResourceFoundException;
+import com.hackerrank.sample.customer.Customer;
+import com.hackerrank.sample.customer.CustomerRepository;
+import com.hackerrank.sample.customer.CustomerServiceImpl;
+import com.hackerrank.sample.customer.CustomerService;
 
 @RunWith(SpringRunner.class)
 public class CustomerServiceTest {

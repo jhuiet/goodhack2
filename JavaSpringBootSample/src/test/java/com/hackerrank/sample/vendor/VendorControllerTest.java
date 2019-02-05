@@ -8,10 +8,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 
-import com.tcs.hack.Exception.NoSuchResourceFoundException;
-import com.tcs.hack.vendor.Vendor;
-import com.tcs.hack.vendor.VendorController;
-import com.tcs.hack.vendor.VendorService;
+import com.hackerrank.sample.exception.NoSuchResourceFoundException;
+import com.hackerrank.sample.vendor.Vendor;
+import com.hackerrank.sample.vendor.VendorController;
+import com.hackerrank.sample.vendor.VendorService;
 
 import static org.hamcrest.Matchers.is;
 import static org.mockito.Mockito.*;

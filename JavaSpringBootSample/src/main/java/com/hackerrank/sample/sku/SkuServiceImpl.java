@@ -2,7 +2,7 @@ package com.hackerrank.sample.sku;
 
 import org.springframework.stereotype.Service;
 
-import com.tcs.hack.Exception.NoSuchResourceFoundException;
+import com.hackerrank.sample.exception.NoSuchResourceFoundException;
 
 import java.util.ArrayList;
 import java.util.List;

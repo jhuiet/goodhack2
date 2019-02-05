@@ -7,7 +7,7 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.tcs.hack.Exception.NoSuchResourceFoundException;
+import com.hackerrank.sample.exception.NoSuchResourceFoundException;
 
 @Service("VendorService")
 public class VendorServiceImpl implements VendorService{
