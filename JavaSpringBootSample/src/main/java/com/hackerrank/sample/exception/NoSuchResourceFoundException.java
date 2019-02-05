@@ -1,4 +1,4 @@
-package com.hackerrank.sample.excpetion;
+package com.hackerrank.sample.exception;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;
