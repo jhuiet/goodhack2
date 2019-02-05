@@ -18,6 +18,10 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.test.context.junit4.SpringRunner;
 
 import com.hackerrank.sample.exception.NoSuchResourceFoundException;
+import com.hackerrank.sample.customer.Sku;
+import com.hackerrank.sample.customer.SkuRepository;
+import com.hackerrank.sample.customer.SkuServiceImpl;
+import com.hackerrank.sample.customer.SkuService;
 
 @RunWith(SpringRunner.class)
 public class InventoryServiceTest {

@@ -9,6 +9,11 @@ import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 
 import com.hackerrank.sample.exception.NoSuchResourceFoundException;
+import com.hackerrank.sample.customer.Sku;
+import com.hackerrank.sample.customer.SkuServiceImpl;
+import com.hackerrank.sample.customer.SkuService;
+
+
 import static org.hamcrest.Matchers.is;
 import static org.mockito.Mockito.*;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.*;
